@@ -21,7 +21,7 @@ const handleLinkClick = () => {
     <h1>Portfolio</h1>
 </Link>
 
-<ul className={click ? "nav-menu active" : "nav-menu"}>
+<ul className={click ? "nav-menu active" : "nav-menu"} >
     <li>
     <Link  to="/" onClick={handleLinkClick}>Home</Link> 
 

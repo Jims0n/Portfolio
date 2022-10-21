@@ -49,7 +49,7 @@ const sendEmail = (e) => {
   />
 </h1>
 <p>
-  Hi I'm Jimoh Abdulateef, I'm interested in freelance oppotunities - especially ambitious or large projects. However
+  Hi I'm Jimoh Abdulateef, I'm  interested in freelance oppotunities - especially ambitious or large projects. However
   if you have other request don't hesitate to contact me using below form
 </p>
 <div className='contact-form'>
