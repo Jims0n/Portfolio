@@ -75,7 +75,7 @@ p {
 
 
     div {
-        position: absolute ;
+        position: absolute;
         width: 150px;
         height: 150px;
         border: 1px solid #ccc;
@@ -134,29 +134,14 @@ p {
 
 
 @media screen and (max-width: 640px) {
-    .text-zone {
-        width: 55%;
-        h1 {
-            padding-bottom: 0px;
-            font-size: 35px;
-        }
 
-        p {
-            font-size: 14px;
-            font-family: "Coolvetica";
-            padding-top: 0px;
-        }
-    
-    }
-
-    
     .stage-cube-cont {
-        width: 15%;
-        height: 50%;
+        width: 20%;
+        height: 15%;
         top: 0;
-        padding-top: 20%;
+        padding-top: 40%;
         
-        margin-left: 0;
+        margin-left: 4px;
         position: absolute;
         left: 50%;
         
@@ -170,14 +155,14 @@ p {
         animation-iteration-count: infinite;
         animation-duration: 12s;
         transform-style: preserve-3d;
-        transform-origin: 100px 100px 0;
-        margin-left: calc(50% - 100px);
+        transform-origin: 50px 50px 0;
+        margin-left: calc(50% - 50px);
     
     
         div {
             position: absolute ;
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
             border: 1px solid #ccc;
             background: rgba(255, 255, 255, 0.4);
             font-size: 50px;
@@ -188,7 +173,7 @@ p {
         }
     
         .face1 {
-            transform: translateZ(100px);
+            transform: translateZ(50px);
         }
         .face2 {
             transform: rotateY(90deg) translateZ(100px);
@@ -206,6 +191,23 @@ p {
             transform: rotateX(-90deg) translateZ(100px);
         }
        
+    }
+
+    .text-zone {
+        width: 55%;
+        h1 {
+         
+            font-size: 35px;
+            margin-top: 20px;
+
+        }
+
+        p {
+            font-size: 14px;
+            font-family: "Coolvetica";
+           
+        }
+    
     }
     
 }
