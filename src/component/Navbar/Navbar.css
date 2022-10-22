@@ -31,7 +31,7 @@ h1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 140%;
+        width: 160%;
         height: 90vh;
         background:rgba(0, 0, 0, 0.9);
         position: absolute;
@@ -51,7 +51,7 @@ h1 {
     }
 
     .nav-menu li a {
-        font-size: 2rem;
+        font-size: 0.8rem;
     }
 
     .hamburger {
