@@ -7,13 +7,13 @@ const Project = () => {
   return (
     <div>
     <Navbar />
-    <div className="blog">
+    {/* <div className="blog">
     <a href='https://okay-articlus.herokuapp.com/'>
     <img  src={BlogImg}  alt="BlogImg "/>
     </a>
     
 
-    </div>
+    </div> */}
     </div>
   )
 }
