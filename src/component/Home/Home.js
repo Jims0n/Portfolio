@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar/Navbar'
 import {Link} from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters/Animate";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
 
@@ -34,6 +36,32 @@ useEffect(() => {
     <h2>Fullstack Developer/ Javascript Expert/ React</h2>
    
     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+    </div>
+    
+
+    <div className="linkGit">
+    <ul>
+      <li>
+        <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.linkedin.com/in/abdulateef-jimoh-194400246/"
+        >
+        <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+        </a>
+      </li>
+
+      <li>
+        <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/Jimson-Botterfly"
+        >
+        <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
+        </a>
+      </li>
+
+    </ul>
     </div>
     
     </div>
