@@ -13,7 +13,7 @@ const Project = () => {
     <Navbar />
     <div className='pImages'>
     <div>
-    <a href='https://okay-articlus.herokuapp.com/'>
+    <a href='https://articulus.onrender.com/'>
     <img src={img1} alt='project1'/>
     </a>
     </div>
